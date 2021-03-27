@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+       @import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
+       @import url(https://fonts.googleapis.com/css?family=Montserrat:800);
+
+        .wrapper{
+            font-family: 'sans-serif';
+            color: #ffffff;
+            text-align: left;
+            font-size: 16px;
+            width: 100%;
+            max-width: 1000px;
+            margin: 50px 10px 10px;
+
+        }
+
+        .wrapper .plan{
+            width: 25%;
+            margin: 0;
+            position: relative;
+            float: left;
+            background-color: #262626;
+            border: 1px solid #1e1e1e;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+            transition: all 0.35s;
+
+        }
+        .wrapper .plan:hover {
+            background-color: #1c1c1c;
+            transform:scale(1.2);
+        }
+
+        .wrapper *{
+            box-sizing: border-box;
+            transition: all 0.25s ease-out;
+        
+        }
+        .wrapper header{
+            position: relative;
+            padding: 20px 10px;
+        }
+        .wrapper header i {
+            font-size: 56px;
+            margin: 0 15px;
+            color: #f39c12;
+            display: inline-block;
+            float: left;
+        }
+        .wrapper .plan-title{
+            top: 0;
+            font-weight:800 ;
+            margin: 10px 0 0;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .plan-cost{
+            margin: 0;
+            opacity: 0.2;
+        }
+        .plan-price{
+         font-weight: 800;
+         font-size: 1.3em;   
+        }
+        .plan-type{
+            opacity: 0.8;
+            font-size: 0.7em;
+            text-transform: uppercase;
+        }
+        .plan-features{
+            padding: 0;
+            margin: 0 0 40px;
+            text-align: center;
+            list-style: outside none none;
+            font-size: 0.8em;
+            text-align: left;
+        }
+        .plan-features li{
+            padding: 5px 5%;
+            font-weight: 500;
+            opacity: 0.5;
+            border-left: solid #f39c12;
+            margin: 2px 20px;
+        }
+        .plan-select{
+            background-color: rgba(0, 0, 0, 0.2);
+            text-align: center;
+
+        }
+        .plan-select a{
+            color: #ffffff;
+            text-decoration: none;
+            padding: 15px 20px;
+            margin: 20px;
+            border: 40px;
+            font-size:0.75em;
+            font-weight: 800;
+            text-transform: uppercase;
+            display: inline-block;
+            background-color: #f39c12;
+
+
+
+        }
+
+        a:hover{
+            background-color: #262626;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+
+
+
+
+
+    </style>
+
+
+</head>
+<body>
+    
+
+    <div class="wrapper">
+        <div class="plan">
+            <header>
+                <i class="ion-ios-navigate-outline"></i>
+                <h4 class="plan-title">Starter</h4>
+                <div class="plan-cost"><span class="plan-price">$19</span> <span class="plan-type">/month</span></div>
+            </header>
+            <ul class="plan-features">
+                <li>5GB Linux Web space</li>
+                <li>5 MySQL Databases</li>
+                <li> Unlimited Emails</li>
+                <li> 250GB MO Transfer</li>
+                <li>24/7 Help Support</li>
+                <li> Daily Backups</li>
+
+
+            </ul>
+            <div class="plan-select"><a href="#">Select Plan</a></div>
+
+
+        </div>
+        <div class="plan">
+            <header>
+                <i class="ion-ios-navigate-outline"></i>
+                <h4 class="plan-title">Basic</h4>
+                <div class="plan-cost"><span class="plan-price">$29</span> <span class="plan-type">/month</span></div>
+            </header>
+            <ul class="plan-features">
+                <li>5GB Linux Web space</li>
+                <li>5 MySQL Databases</li>
+                <li> Unlimited Emails</li>
+                <li> 250GB MO Transfer</li>
+                <li>24/7 Help Support</li>
+                <li> Daily Backups</li>
+
+
+            </ul>
+            <div class="plan-select"><a href="#">Select Plan</a></div>
+
+
+        </div>
+
+        <div class="plan">
+            <header>
+                <i class="ion-ios-navigate-outline"></i>
+                <h4 class="plan-title">Professional</h4>
+                <div class="plan-cost"><span class="plan-price">$49</span> <span class="plan-type">/month</span></div>
+            </header>
+            <ul class="plan-features">
+                <li>5GB Linux Web space</li>
+                <li>5 MySQL Databases</li>
+                <li> Unlimited Emails</li>
+                <li> 250GB MO Transfer</li>
+                <li>24/7 Help Support</li>
+                <li> Daily Backups</li>
+
+
+            </ul>
+            <div class="plan-select"><a href="#">Select Plan</a></div>
+
+
+        </div>
+
+        <div class="plan">
+            <header>
+                <i class="ion-ios-navigate-outline"></i>
+                <h4 class="plan-title">Ultra</h4>
+                <div class="plan-cost"><span class="plan-price">$99</span> <span class="plan-type">/month</span></div>
+            </header>
+            <ul class="plan-features">
+                <li>5GB Linux Web space</li>
+                <li>5 MySQL Databases</li>
+                <li> Unlimited Emails</li>
+                <li> 250GB MO Transfer</li>
+                <li>24/7 Help Support</li>
+                <li> Daily Backups</li>
+
+
+            </ul>
+            <div class="plan-select"><a href="#">Select Plan</a></div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+</body>
+</html>
